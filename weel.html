@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Well | NoteBook</title>
+        <link rel="icon" type="img/png" href="img/febIcon.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/glyphicons-halflings-regular.ttf">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <!--Header part-->
+        <div class="header">
+            <!--navber-->  
+                <nav class="navbar navbar-inverse  navbar-fixed-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="index.html" style="float: left;"><img class="img-responsive" src="img/logoIcon.png"/></a>
+                            <button class="navbar-toggle my-button" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">copy-need help</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                                <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav><!--End of the navbar-->
+        </div><!--End of the header-->
+        
+        <!--Breadcrumb-->
+        <div class="container breadcrumbContent">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">frames</li>        
+            </ol>
+        </div><!--End of the Breadcrumb-->
+        
+        <!--nav-pills & main content-->
+        <div class="container mainPart">
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked" id="navpills">
+                        <li class="active"><a href="photographs.html">Photographs / আলোকচিত্রসমূহ</a></li>
+                        <li><a href="e-Courses.html">e-Courses / অনলাইন কোর্সসমূহ</a></li>
+                        <li><a href="publications.html">Publications / লেখালেখি</a></li>
+                        <li><a href="talks.html">Talks / বক্তৃতা</a></li>
+                        <li><a href="notes.html">Notes / ক্লাসের নোটসমূহ</a></li>
+                        <li><a href="arts.html">Arts / চিত্রকর্ম</a></li>
+                    </ul>
+                </div>
+                
+                <!--Pannel group-->
+                <div class="col-md-9">
+                        <div class="well">
+                            <p style="font-size: 180%;">Contribute in:</p>
+                            <form role="form">
+                                <div class="form-group">
+                                    <select class="form-control sign" id="sel1">
+                                        <option value="Photographs">Photographs / আলোকচিত্রসমূহ</option>
+                                        <option value="e-Courses">e-Courses / অনলাইন কোর্সসমূহ</option>
+                                        <option value="Publications">Publications / লেখালেখি</option>
+                                        <option value="Talks">Talks / বক্তৃতা</option>
+                                        <option value="Notes">Notes / ক্লাসের নোটসমূহ</option>
+                                        <option value="Arts">Arts / চিত্রকর্ম</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-default signup" style="margin-top: 3%;">New Post</button>
+                            </form>
+                        </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="photographs.html">Recent</a></li>
+                        <li><a href="arts.html">My Posts</a></li>
+                        <li><a href="notes.html">Top Ranked Frames</a></li>
+                        <li><a href="publications.html">Top Ranked Publications</a></li>
+                      </ul>
+                      <br>
+                </div><!--End of the pannel group-->
+            </div>
+        </div><!--End of the pannel group-->
+                               
+        <!--Footer part-->
+        <div class="footer-part">
+            &copy; Alapon 2017. All rights reserved.
+        </div><!--End of the footer part-->
+        
+        <!--script part-->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script><!--End of script part-->
+    </body>
+</html>

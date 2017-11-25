@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up | NoteBook</title>
+        <link rel="icon" type="img/png" href="img/febIcon.png">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/glyphicons-halflings-regular.ttf">
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body class="bodyBackground">
+        <!--Header part-->
+        <div class="header">
+            <!--navber-->  
+            <nav class="navbar navbar-inverse  navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" style="float: left;"><img class="img-responsive" src="img/logoIcon.png"/></a>
+                        <button class="navbar-toggle my-button" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">copy-need help</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav><!--End of the navbar-->
+        </div><!--End of the header-->
+
+        <!--Signup form-->
+        <div class="container mainPart noteBookForm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <form role="form" class="form formStyle">
+
+                        <div class="formNoteBook">NoteBook</div><br>
+                        
+                        <div class="form-group">
+                            <label class="control-label name" for="name">Name </label>
+                            <input type="text" class="form-control" id="name" required="required">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="control-label email" for="email">Email </label>
+                            <input type="email" class="form-control" id="email" required="required">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label password" for="pwd">Password</label>
+                            <input type="password" class="form-control" id="pwd" required="required">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="control-label password" for="pwd">Retype</label>
+                            <input type="password" class="form-control" id="pwd" required="required">
+                        </div>
+                        
+                        <div class="login-last">
+                            <div class="checkbox">
+                                <label><input type="checkbox" checked> I agree to the Terms and Conditions</label>
+                            </div><br>
+
+                            <button type="submit" class="btn btn-default submitButton">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><br><!--End of the Signup form-->
+
+        <!--Footer part-->
+        <div class="footer-part">
+            &copy; Alapon 2017. All rights reserved. .
+        </div><!--End of the footer part-->
+
+        <!--script part-->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script><!--End of the script part-->
+    </body>
+</html>
